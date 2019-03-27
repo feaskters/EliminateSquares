@@ -36,10 +36,10 @@ class GameViewController: UIViewController,GameOverProtocol,BlockProtocol {
         //设置标题
         switch self.tag {
         case 0:
-            self.titleLabel.text = "Easy " + String(self.level)
+            self.titleLabel.text = "Easy " + String(self.level + 1)
             break
         case 1:
-            self.titleLabel.text = "Normal " + String(self.level)
+            self.titleLabel.text = "Normal " + String(self.level + 1)
             break
         case 2:
             self.titleLabel.text = "Freedom"
