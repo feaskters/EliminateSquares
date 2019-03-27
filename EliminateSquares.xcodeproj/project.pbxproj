@@ -10,8 +10,26 @@
 		F7206BE7224A1FAF0082AACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7206BE6224A1FAF0082AACA /* AppDelegate.swift */; };
 		F7206BE9224A1FAF0082AACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7206BE8224A1FAF0082AACA /* ViewController.swift */; };
 		F7206BEC224A1FAF0082AACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7206BEA224A1FAF0082AACA /* Main.storyboard */; };
-		F7206BEE224A1FB20082AACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7206BED224A1FB20082AACA /* Assets.xcassets */; };
 		F7206BF1224A1FB20082AACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7206BEF224A1FB20082AACA /* LaunchScreen.storyboard */; };
+		F7206BF9224A25280082AACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7206BF8224A25270082AACA /* Assets.xcassets */; };
+		F7340B41224B0A2D00B8BF48 /* CheckPoints.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7340B36224B0A2C00B8BF48 /* CheckPoints.plist */; };
+		F7340B42224B0A2D00B8BF48 /* button_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7340B37224B0A2C00B8BF48 /* button_click.mp3 */; };
+		F7340B44224B0A2D00B8BF48 /* EffectiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B3A224B0A2D00B8BF48 /* EffectiveClass.swift */; };
+		F7340B45224B0A2D00B8BF48 /* Checkpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = F7340B3B224B0A2D00B8BF48 /* Checkpoints.m */; };
+		F7340B46224B0A2D00B8BF48 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = F7340B3D224B0A2D00B8BF48 /* Music.m */; };
+		F7340B47224B0A2D00B8BF48 /* SystemLanguageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B3E224B0A2D00B8BF48 /* SystemLanguageClass.swift */; };
+		F7340B48224B0A2D00B8BF48 /* merge.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7340B3F224B0A2D00B8BF48 /* merge.wav */; };
+		F7340B49224B0A2D00B8BF48 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B40224B0A2D00B8BF48 /* UserDefault.swift */; };
+		F7340B50224B124E00B8BF48 /* ModeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B4F224B124E00B8BF48 /* ModeSelectorViewController.swift */; };
+		F7340B52224B125700B8BF48 /* ModeSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7340B51224B125700B8BF48 /* ModeSelectorViewController.xib */; };
+		F7340B54224B126200B8BF48 /* CheckPointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B53224B126200B8BF48 /* CheckPointButton.swift */; };
+		F7340B56224B186F00B8BF48 /* LevelSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7340B55224B186F00B8BF48 /* LevelSelectorViewController.xib */; };
+		F7340B58224B187600B8BF48 /* LevelSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B57224B187600B8BF48 /* LevelSelectorViewController.swift */; };
+		F7340B62224B194E00B8BF48 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B5C224B194E00B8BF48 /* GameViewController.swift */; };
+		F7340B63224B194E00B8BF48 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7340B5D224B194E00B8BF48 /* GameViewController.xib */; };
+		F7340B64224B194E00B8BF48 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B5F224B194E00B8BF48 /* GameOverView.swift */; };
+		F7340B65224B194E00B8BF48 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7340B60224B194E00B8BF48 /* BlockView.swift */; };
+		F7340B67224B547600B8BF48 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7340B66224B547600B8BF48 /* BGM.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +37,30 @@
 		F7206BE6224A1FAF0082AACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7206BE8224A1FAF0082AACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7206BEB224A1FAF0082AACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7206BED224A1FB20082AACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7206BF0224A1FB20082AACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7206BF2224A1FB20082AACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7206BF8224A25270082AACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7340B34224B0A2C00B8BF48 /* EliminateSquares-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EliminateSquares-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7340B35224B0A2C00B8BF48 /* Checkpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checkpoints.h; sourceTree = "<group>"; };
+		F7340B36224B0A2C00B8BF48 /* CheckPoints.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CheckPoints.plist; sourceTree = "<group>"; };
+		F7340B37224B0A2C00B8BF48 /* button_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_click.mp3; sourceTree = "<group>"; };
+		F7340B39224B0A2D00B8BF48 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		F7340B3A224B0A2D00B8BF48 /* EffectiveClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectiveClass.swift; sourceTree = "<group>"; };
+		F7340B3B224B0A2D00B8BF48 /* Checkpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checkpoints.m; sourceTree = "<group>"; };
+		F7340B3D224B0A2D00B8BF48 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
+		F7340B3E224B0A2D00B8BF48 /* SystemLanguageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLanguageClass.swift; sourceTree = "<group>"; };
+		F7340B3F224B0A2D00B8BF48 /* merge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = merge.wav; sourceTree = "<group>"; };
+		F7340B40224B0A2D00B8BF48 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		F7340B4F224B124E00B8BF48 /* ModeSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeSelectorViewController.swift; sourceTree = "<group>"; };
+		F7340B51224B125700B8BF48 /* ModeSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModeSelectorViewController.xib; sourceTree = "<group>"; };
+		F7340B53224B126200B8BF48 /* CheckPointButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckPointButton.swift; sourceTree = "<group>"; };
+		F7340B55224B186F00B8BF48 /* LevelSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelSelectorViewController.xib; sourceTree = "<group>"; };
+		F7340B57224B187600B8BF48 /* LevelSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSelectorViewController.swift; sourceTree = "<group>"; };
+		F7340B5C224B194E00B8BF48 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F7340B5E224B194E00B8BF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GameViewController.xib; sourceTree = "<group>"; };
+		F7340B5F224B194E00B8BF48 /* GameOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		F7340B60224B194E00B8BF48 /* BlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
+		F7340B66224B547600B8BF48 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +93,59 @@
 		F7206BE5224A1FAF0082AACA /* EliminateSquares */ = {
 			isa = PBXGroup;
 			children = (
+				F7340B4A224B122C00B8BF48 /* gameSelector */,
+				F7340B11224B096200B8BF48 /* resource */,
+				F7340B59224B194E00B8BF48 /* game */,
 				F7206BE6224A1FAF0082AACA /* AppDelegate.swift */,
 				F7206BE8224A1FAF0082AACA /* ViewController.swift */,
 				F7206BEA224A1FAF0082AACA /* Main.storyboard */,
-				F7206BED224A1FB20082AACA /* Assets.xcassets */,
+				F7206BF8224A25270082AACA /* Assets.xcassets */,
 				F7206BEF224A1FB20082AACA /* LaunchScreen.storyboard */,
 				F7206BF2224A1FB20082AACA /* Info.plist */,
 			);
 			path = EliminateSquares;
+			sourceTree = "<group>";
+		};
+		F7340B11224B096200B8BF48 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F7340B37224B0A2C00B8BF48 /* button_click.mp3 */,
+				F7340B35224B0A2C00B8BF48 /* Checkpoints.h */,
+				F7340B3B224B0A2D00B8BF48 /* Checkpoints.m */,
+				F7340B36224B0A2C00B8BF48 /* CheckPoints.plist */,
+				F7340B66224B547600B8BF48 /* BGM.mp3 */,
+				F7340B3A224B0A2D00B8BF48 /* EffectiveClass.swift */,
+				F7340B3F224B0A2D00B8BF48 /* merge.wav */,
+				F7340B39224B0A2D00B8BF48 /* Music.h */,
+				F7340B3D224B0A2D00B8BF48 /* Music.m */,
+				F7340B3E224B0A2D00B8BF48 /* SystemLanguageClass.swift */,
+				F7340B40224B0A2D00B8BF48 /* UserDefault.swift */,
+				F7340B34224B0A2C00B8BF48 /* EliminateSquares-Bridging-Header.h */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		F7340B4A224B122C00B8BF48 /* gameSelector */ = {
+			isa = PBXGroup;
+			children = (
+				F7340B51224B125700B8BF48 /* ModeSelectorViewController.xib */,
+				F7340B4F224B124E00B8BF48 /* ModeSelectorViewController.swift */,
+				F7340B55224B186F00B8BF48 /* LevelSelectorViewController.xib */,
+				F7340B57224B187600B8BF48 /* LevelSelectorViewController.swift */,
+				F7340B53224B126200B8BF48 /* CheckPointButton.swift */,
+			);
+			path = gameSelector;
+			sourceTree = "<group>";
+		};
+		F7340B59224B194E00B8BF48 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				F7340B5C224B194E00B8BF48 /* GameViewController.swift */,
+				F7340B5D224B194E00B8BF48 /* GameViewController.xib */,
+				F7340B5F224B194E00B8BF48 /* GameOverView.swift */,
+				F7340B60224B194E00B8BF48 /* BlockView.swift */,
+			);
+			path = game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +180,7 @@
 				TargetAttributes = {
 					F7206BE2224A1FAF0082AACA = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -106,6 +191,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = F7206BDA224A1FAF0082AACA;
 			productRefGroup = F7206BE4224A1FAF0082AACA /* Products */;
@@ -123,7 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7206BF1224A1FB20082AACA /* LaunchScreen.storyboard in Resources */,
-				F7206BEE224A1FB20082AACA /* Assets.xcassets in Resources */,
+				F7340B48224B0A2D00B8BF48 /* merge.wav in Resources */,
+				F7340B42224B0A2D00B8BF48 /* button_click.mp3 in Resources */,
+				F7206BF9224A25280082AACA /* Assets.xcassets in Resources */,
+				F7340B63224B194E00B8BF48 /* GameViewController.xib in Resources */,
+				F7340B56224B186F00B8BF48 /* LevelSelectorViewController.xib in Resources */,
+				F7340B52224B125700B8BF48 /* ModeSelectorViewController.xib in Resources */,
+				F7340B67224B547600B8BF48 /* BGM.mp3 in Resources */,
+				F7340B41224B0A2D00B8BF48 /* CheckPoints.plist in Resources */,
 				F7206BEC224A1FAF0082AACA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +228,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7340B50224B124E00B8BF48 /* ModeSelectorViewController.swift in Sources */,
 				F7206BE9224A1FAF0082AACA /* ViewController.swift in Sources */,
+				F7340B58224B187600B8BF48 /* LevelSelectorViewController.swift in Sources */,
+				F7340B65224B194E00B8BF48 /* BlockView.swift in Sources */,
+				F7340B49224B0A2D00B8BF48 /* UserDefault.swift in Sources */,
+				F7340B46224B0A2D00B8BF48 /* Music.m in Sources */,
+				F7340B44224B0A2D00B8BF48 /* EffectiveClass.swift in Sources */,
+				F7340B54224B126200B8BF48 /* CheckPointButton.swift in Sources */,
 				F7206BE7224A1FAF0082AACA /* AppDelegate.swift in Sources */,
+				F7340B45224B0A2D00B8BF48 /* Checkpoints.m in Sources */,
+				F7340B62224B194E00B8BF48 /* GameViewController.swift in Sources */,
+				F7340B64224B194E00B8BF48 /* GameOverView.swift in Sources */,
+				F7340B47224B0A2D00B8BF48 /* SystemLanguageClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +261,14 @@
 				F7206BF0224A1FB20082AACA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F7340B5D224B194E00B8BF48 /* GameViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7340B5E224B194E00B8BF48 /* Base */,
+			);
+			name = GameViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,16 +394,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BW52A9RCNH;
 				INFOPLIST_FILE = EliminateSquares/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmh.EliminateSquares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EliminateSquares/resource/EliminateSquares-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +416,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BW52A9RCNH;
 				INFOPLIST_FILE = EliminateSquares/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zmh.EliminateSquares;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EliminateSquares/resource/EliminateSquares-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
